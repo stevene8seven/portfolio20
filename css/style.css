@@ -29,7 +29,7 @@ body{
 }
 /*MASTER HEADING*/
 .masthead {
-    padding: 6em 0;
+    padding: 50px 0;
     background-image: url('https://download.unsplash.com/photo-1431051047106-f1e17d81042f');
     background-repeat: no-repeat;
     background-size: cover;
@@ -61,24 +61,24 @@ body{
 
 /*SECTION 1 INTRO*/
 .introduction-section{
-	margin-left: 10rem;
-	margin-right: 30rem;
+	margin: auto 0;
 }
 .introduction-section .pro-pic{
-	float: left;
 	border:1px solid #021a40;
+	float:left;
+	margin-left:3%;
 }
 
 .introduction-section .heading-intro{
-    margin-left: 30rem;
-    margin-right: 25rem;
-    margin-top: 2em;
+    margin-left: 27%;
+    margin-right: 0%;
+    margin-top: 2%;
 }
 
 .introduction-section > p{
-	margin-left: 30rem;
-    margin-right: 12rem;
-    margin-top: 2em;
+	margin-left: 27%;
+    margin-right: 0%;
+    margin-top: 1%;
     font-weight: 300;
     letter-spacing: 0.05em;
 }
@@ -131,7 +131,7 @@ a {
 /*SECTION 4 PORTFOLIO*/
 .portfolio{
 	margin: 0 auto;
-	margin-top: 2em;
+	margin-top: 5%;
 	padding-left: 1em;
 	padding-right: 1em;
 	padding-top: 1em;
@@ -151,20 +151,36 @@ a {
 }
 
 .portfolio .nytimes{
-	padding-left: 4em;
+	padding-left: 5%;
 }
 .portfolio .karma{
-	padding-left: 6em;
+	padding-left: 8%;
 
+}
+
+@media only screen and (max-width: 500px){
+	.portfolio .nytimes{
+		display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+}
+
+@media only screen and (max-width: 500px){
+	.portfolio .karma{
+		display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
 }
 
 /*SECTION 5 BLOG*/
 .blog{
 	margin: 0 auto;
-	padding-left: 25em;
-	padding-right: 25em;
-	padding-top: 1em;
-	padding-bottom: 10em;
+	padding-left: 25%;
+	padding-right: 25%;
+	padding-top: 1%;
+	padding-bottom: 10%;
 	background-color: white;
 }
 
